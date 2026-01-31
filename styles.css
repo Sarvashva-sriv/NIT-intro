@@ -1,0 +1,41 @@
+body{
+    
+}
+.Options{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: none;
+    font-weight: 700;
+    transition: background-color, 0.12s, font-size, 0.12s, border-radius, 0.12s;
+}
+.Options:hover{
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: rgb(105, 181, 233);
+    font-size: larger;
+}
+.Options:active{
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: rgb(26, 128, 196);
+    font-size: larger;
+}
+
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #5c5c9c;
+}
+.intro{
+
+    display:flex;
+    align-items: center;
+    text-align:justify;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRbfY-OAr_lSDwA4pm1dRXD-vfeX_EGZM1HA&s");
+    background-size: cover ;
+    background-repeat: no-repeat;
+}
+.bol{
+    font-weight: bold;
+}
