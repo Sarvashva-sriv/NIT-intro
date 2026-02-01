@@ -1,0 +1,10 @@
+.UG{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(121, 44, 255);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
