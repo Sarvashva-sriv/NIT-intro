@@ -39,3 +39,20 @@ body{
 .bol{
     font-weight: bold;
 }
+.ug_but{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    color:rgb(2, 3, 3);
+    font-weight: bolder;
+    background-color: #5c5c9c ;
+    cursor: pointer;
+    transition: opacity, 0.12s;
+}
+.ug_but:hover{
+    opacity: 0.9;
+}
+.ug_but:active{
+    background-color: #282844 ;
+}
